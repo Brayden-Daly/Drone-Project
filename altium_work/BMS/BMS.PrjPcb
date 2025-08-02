@@ -51,7 +51,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Sheet1.SchDoc
+DocumentPath=..\..\..\..\..\Public\Documents\Altium\Flight_Controller\BMS_Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -60,15 +60,15 @@ AnnotateScope=All
 AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CJHNTGTK
 
 [Document2]
-DocumentPath=Assembly.OutJob
+DocumentPath=..\..\..\..\..\Public\Documents\Altium\Flight_Controller\Assembly.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -85,7 +85,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=Documentation.OutJob
+DocumentPath=..\..\..\..\..\Public\Documents\Altium\Flight_Controller\Documentation.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -102,7 +102,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=Fabrication.OutJob
+DocumentPath=..\..\..\..\..\Public\Documents\Altium\Flight_Controller\Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -119,7 +119,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=PCB1.PcbDoc
+DocumentPath=..\..\..\..\..\Public\Documents\Altium\Flight_Controller\BMS_PCBPcbDoc.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -136,7 +136,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RJHOKYIJ
 
 [Document6]
-DocumentPath=ActiveBOM.BomDoc
+DocumentPath=..\..\..\..\..\Public\Documents\Altium\Flight_Controller\ActiveBOM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -153,84 +153,84 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=CAGE_CODE
-Value=?????
+Name=SCH_REV
+Value=A
 
 [Parameter2]
-Name=CONTRACT_NUMBER
-Value=<CONTRACT NO>
-
-[Parameter3]
-Name=DOC_NO_ASSY_DWG
-Value=<ASSY DWG NO>
-
-[Parameter4]
-Name=DOC_NO_BOM
-Value=<BOM DOC NO>
-
-[Parameter5]
-Name=DOC_NO_FAB_DWG
-Value=<FAB DWG NO>
-
-[Parameter6]
-Name=DOC_NO_SCH_DWG
-Value=<SCH DWG NO>
-
-[Parameter7]
-Name=PCB_2_DEC_TOL
-Value=+/-.01
-
-[Parameter8]
-Name=PCB_3_DEC_TOL
-Value=+/-.010
-
-[Parameter9]
-Name=PCB_ANG_TOL
-Value=+/-1/2
-
-[Parameter10]
-Name=PCB_ASSEMBLY_NO
-Value=<PCB ASSY NO>
-
-[Parameter11]
-Name=PCB_CHECKER
-Value=- -----
-
-[Parameter12]
-Name=PCB_CHECKER_APP_DATE
-Value=--/--/----
-
-[Parameter13]
-Name=PCB_DESIGNER
-Value=- -----
-
-[Parameter14]
-Name=PCB_DESIGNER_APP_DATE
-Value=--/--/----
-
-[Parameter15]
-Name=PCB_DWG_NO
-Value=<PCB DWG NO>
-
-[Parameter16]
-Name=PCB_ENGINEER
-Value=- -----
-
-[Parameter17]
-Name=PCB_ENGINEER_APP_DATE
-Value=--/--/----
-
-[Parameter18]
-Name=PCB_PART_NUMBER
-Value=<PCB PN>
-
-[Parameter19]
 Name=PCB_REV
 Value=A
 
+[Parameter3]
+Name=PCB_PART_NUMBER
+Value=<PCB PN>
+
+[Parameter4]
+Name=PCB_ENGINEER_APP_DATE
+Value=--/--/----
+
+[Parameter5]
+Name=PCB_ENGINEER
+Value=- -----
+
+[Parameter6]
+Name=PCB_DWG_NO
+Value=<PCB DWG NO>
+
+[Parameter7]
+Name=PCB_DESIGNER_APP_DATE
+Value=--/--/----
+
+[Parameter8]
+Name=PCB_DESIGNER
+Value=- -----
+
+[Parameter9]
+Name=PCB_CHECKER_APP_DATE
+Value=--/--/----
+
+[Parameter10]
+Name=PCB_CHECKER
+Value=- -----
+
+[Parameter11]
+Name=PCB_ASSEMBLY_NO
+Value=<PCB ASSY NO>
+
+[Parameter12]
+Name=PCB_ANG_TOL
+Value=+/-1/2
+
+[Parameter13]
+Name=PCB_3_DEC_TOL
+Value=+/-.010
+
+[Parameter14]
+Name=PCB_2_DEC_TOL
+Value=+/-.01
+
+[Parameter15]
+Name=DOC_NO_SCH_DWG
+Value=<SCH DWG NO>
+
+[Parameter16]
+Name=DOC_NO_FAB_DWG
+Value=<FAB DWG NO>
+
+[Parameter17]
+Name=DOC_NO_BOM
+Value=<BOM DOC NO>
+
+[Parameter18]
+Name=DOC_NO_ASSY_DWG
+Value=<ASSY DWG NO>
+
+[Parameter19]
+Name=CONTRACT_NUMBER
+Value=<CONTRACT NO>
+
 [Parameter20]
-Name=SCH_REV
-Value=A
+Name=CAGE_CODE
+Value=?????
 
 [Configuration1]
 Name=Default Configuration
