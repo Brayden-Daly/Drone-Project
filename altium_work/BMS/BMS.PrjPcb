@@ -119,7 +119,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=..\..\..\..\..\Public\Documents\Altium\Flight_Controller\BMS_PCBPcbDoc.PcbDoc
+DocumentPath=BMS_PCBPcbDoc.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -136,7 +136,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RJHOKYIJ
 
 [Document6]
-DocumentPath=..\..\..\..\..\Public\Documents\Altium\Flight_Controller\ActiveBOM.BomDoc
+DocumentPath=ActiveBOM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
